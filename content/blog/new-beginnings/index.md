@@ -1,108 +1,87 @@
 ---
-title: js blog 3
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: js blog 1
+date: "2015-05-01T22:12:03.284Z"
+description: "important js concepts"
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+NPM(Node Package Manager):->
+> It is used to take advantage of a vast ecosystem of third-party packages and easily install or update them.
 
-## On deer horse aboard tritely yikes and much
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+WEB PACK:->
+> Web pack is a static module bundler for modern J.S. applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generate it (one or more bundles). It does not read the files inside the public folder. It processes src only and copies from the public folder for building.
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+ BABEL:-> 
+> Babel is a tool chain that is mainly used to convert ECMA 2015 + Code into a backward compatible version of JS in current and older browser or Environments.
 
-### Overlaid the jeepers uselessly much excluding
+COMPONENTS:->
+> Components are the building block of any React app.
+Components lets use spilt in the UI into independent, reusable piece and think about each in isolation.
+Components are like J.S. They accept arbitrary inputs (caused “props”) and return React Elements describing what should appear on the screen.
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+Difference between functional vs Class Component
+> Functional Component :->
+Use functional Component if you are writing a presentational component which does’nt have its own state or needs to access Lifestyle hook. You cannot use UseState() in your component because Functional component are plain J.S. functions.
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+Class Components:->
+Use Class Components if you need state or need access Lifecycle hooks are coming from React. Component which you extend from in Class Component.
 
-### According a funnily until pre-set or arrogant well cheerful
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+PROPS:->
+> When React sees an Element representing a user defined Component, it passes Jsx attributes to this Component as a single object. We call this object “props”.
+Whether you declare as a fuction or a class, it must never modify its own props.
+All react Components must act like pure function with respect to their props.
 
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
+STATE:->
+>State is similar to props but it is private and fully controlled by the Component. We can create state only in class Component. It is possible to update the state/Modify the state.
+There are two ways to initialize state in React Component:-
+Direct inside class
+Inside the constructor
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
 
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
 
-#### Silent delightfully including because before one up barring chameleon
 
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
 
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+This is a paragraph.
 
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
+    Class Student extends Component{
+State{
+Name:”Rahul”
+Prop 1: this props.prop1
+}
+Render() }
+}
+Note:- The state property is reffered as state.
+              This is a class iinstance property.
 
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
+              
+Hooks
+>Hooks are function that let you”hook into” React state and lifecycle features from function Components.
+Hooks allow you to use React without classes. It means you can use state and other React feature without writing a class.
+React provide a few built in Hooks like useState, useEffect etc.
+Hooks are new addition in React 16.8.
 
-###### Slapped cozy a that lightheartedly and far
+When use Hooks ?
 
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+> If you write a function component and realize you need to add some state to it.
+>
+Rules of Hooks
+>
+> Only call Hooks at the top level – we should not call Hooks inside loops, Conditions or nested functions. Instead , always use Hooks at the top level of your React function.
+Only call Hooks from React function- We should not call Hooks from regular Javascript functions. Instead, call Hooks from React function component or call Hooks from custom Hooks.
+React realizes on the order in which Hooks are called.
+Hooks don’t work inside classes.
+>
+
+    * * *
+
+    ***
+
+    *****
+
+    - - -
+
+ 

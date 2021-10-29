@@ -1,7 +1,7 @@
 ---
-title: js blog 1
+title: js blog 3
 date: "2015-05-01T22:12:03.284Z"
-description: "important js concepts"
+description: "event loop"
 ---
 
 NPM(Node Package Manager)
