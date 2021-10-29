@@ -9,7 +9,7 @@ date: "2021-10-29T23:46:37.121Z"
 use State returns a pair: - the current state value and a function that lets you update it.
 React will preserve this state between re-renders.
 You can call this function from an Event handler or somewhere else.
-E.g.: - import React, {useState} from ‘react’.;
+>E.g.: - import React, {useState} from ‘react’.;
 const nameStateVariable = useState(“Rahul”)
 const[name, setname] = useState(“Rahul”)
 
@@ -17,7 +17,7 @@ what is useeffect ?
 > useEffect is a hook Encapsulating code that has ‘side Effects’, if you are familiar with React cycle 
 Lifecycle methods, you can think of useEffect Hook as component DidMount, component Didupdate and component will Unmount combined.
 Eg:-
-Import React, {useState, useEffect} from ‘react’,
+>Import React, {useState, useEffect} from ‘react’,
 useEffect(Function)
 useEffect(Function,Array)
 The function passed to useEffect unit run after the render is committed to the screen. 
