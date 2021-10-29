@@ -1,9 +1,9 @@
 {
-  "name": "js -concept-blog  ",
+  "name": "js-concept-blog",
   "private": true,
   "description": "A starter  blog for basic js concepts",
   "version": "0.1.0",
-  "author": "Shrayas Ranjan <no.mail@gmail.com>",
+  "author": "Shrayas_Ranjan<no.mail@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
