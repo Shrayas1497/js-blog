@@ -1,6 +1,6 @@
 ---
 title: js blog 1
-date: "2015-05-01T22:12:03.284Z"
+date: "2021-10-29T22:12:03.284Z"
 description: "important js concepts"
 ---
 
@@ -43,28 +43,27 @@ Inside the constructor
 
 
 
-
-
-This is a paragraph.
-
-    Class Student extends Component{
+   Class Student extends Component{
 State{
 Name:”Rahul”
 Prop 1: this props.prop1
 }
-Render() }
+render() }
 }
-Note:- The state property is reffered as state.
+    ========
+
+    Note:- The state property is reffered as state.
               This is a class iinstance property.
 
-              
-Hooks
->Hooks are function that let you”hook into” React state and lifecycle features from function Components.
-Hooks allow you to use React without classes. It means you can use state and other React feature without writing a class.
+    --------
+
+
+HOOKS
+>Hooks are function that let you”hook into” React state and lifecycle features from function Components.Hooks allow you to use React without classes. It means you can use state and other React feature without writing a class.
 React provide a few built in Hooks like useState, useEffect etc.
 Hooks are new addition in React 16.8.
 
-When use Hooks ?
+WHEN USE HOOKS ?
 
 > If you write a function component and realize you need to add some state to it.
 >
@@ -75,13 +74,5 @@ Only call Hooks from React function- We should not call Hooks from regular Javas
 React realizes on the order in which Hooks are called.
 Hooks don’t work inside classes.
 >
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
 
  
