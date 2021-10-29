@@ -1,5 +1,5 @@
 ---
-title: js blog 2
+title: js blog 1
 date: "2021-10-29T22:12:03.284Z"
 description: "important js concepts"
 ---

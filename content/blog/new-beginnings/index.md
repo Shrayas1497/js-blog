@@ -1,5 +1,5 @@
 ---
-title: js blog 1
+title: js blog 2
 date: "2021-10-29T23:46:37.121Z"
 ---
 
