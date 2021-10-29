@@ -4,20 +4,21 @@ date: "2015-05-01T22:12:03.284Z"
 description: "important js concepts"
 ---
 
-This is my first post on my new fake blog! How exciting!
+NPM(Node Package Manager)
+> It is used to take advantage of a vast ecosystem of third-party packages and easily install or update them.
 
-I'm sure I'll write a lot more interesting things in the future.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+Web pack
+> Web pack is a static module bundler for modern J.S. applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generate it (one or more bundles). It does not read the files inside the public folder. It processes src only and copies from the public folder for building.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+
+Babel  
+> Babel is a tool chain that is mainly used to convert ECMA 2015 + Code into a backward compatible version of JS in current and older browser or Environments.
+
+Components
+> Components are the building block of any React app.
+Components lets use spilt in the UI into independent, reusable piece and think about each in isolation.
+Components are like J.S. They accept arbitrary inputs (caused “props”) and return React Elements describing what should appear on the screen.
 
 ![Chinese Salty Egg](./salty_egg.jpg)
 
