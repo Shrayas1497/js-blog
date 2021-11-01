@@ -3,7 +3,7 @@ title: js blog 2
 date: "2021-10-29T23:46:37.121Z"
 ---
 
- what is useState ?
+ ** what is useState ? **
 
 > useState():- It is Hook that allows you to read React to function component. We call it inside a function component to add some local state to it.
 use State returns a pair: - the current state value and a function that lets you update it.
