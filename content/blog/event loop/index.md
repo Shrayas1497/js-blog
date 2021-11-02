@@ -5,13 +5,14 @@ description: "event loop"
 ---
 
 
-Asynchronous JavaScript with Node.js
+#### Asynchronous JavaScript with Node.js
 > In server-side development, we often perform time-consuming tasks such as reading files or querying a database. Instead of halting the execution of our code to await these operations or using multiple threads like other back-end environments, Node was designed to use an event loop like the one used in browser-based JavaScript execution. The event-loop enables asynchronous actions to be handled in a non-blocking way.
 >Node provides a number of APIs for performing asynchronous tasks which expect callback functions to be passed in as arguments. Under the hood, these APIs trigger the subscription to and emitting of events to signal the completion of the operation. When the operation completes, the callback function is added to a queue, or line, of tasks waiting for their turn to be executed. When the current stack, or list, or synchronous tasks finish executing, the operations on the queue will be performed.
 >This means if synchronous tasks never end, operations waiting in the event-queue would never have the chance to run. Take a look at the following example code using the asynchronous Node setTimeout () API which asynchronously executes a provided callback function after a given delay:
 
 
-Timers  
+
+#### Timers  
 
 
 > In Node.js timers, or functions that execute callbacks after a set period of time, are provided by the core timers module. 
@@ -32,7 +33,7 @@ This is a how a process, like a server, can stay "alive" waiting for a request i
 >The nature of executing timer callbacks as part of the Event Loop explains the non-obvious feature that a timer's wait time is not an exact time 
 in which the callback will be executed -- it is, in fact, a minimum time that will pass before the callback is queued for execution.
 
-Event loop:->
+#### Event loop:->
 >The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a 
 single thread, but using a few smart data structures, it gives us the illusion of multi-threading. Let’s take a look at what happens on the back-end.
 
