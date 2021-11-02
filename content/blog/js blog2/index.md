@@ -16,8 +16,9 @@ const[name, setname] = useState(“Rahul”)
 > useEffect is a hook Encapsulating code that has ‘side Effects’, if you are familiar with  React Lifecycle methods, you can think of useEffect Hook as component DidMount, componentDidupdate and component willUnmount combined.
 Eg:-
 >Import React, {useState, useEffect} from ‘react’,
-useEffect(Function)
-useEffect(Function,Array)
+>useEffect(Function)
+>useEffect(Function,Array)
+
 The function passed to useEffect will run after the render is committed to the screen.
 >Second argument to useEffect that is the array of values that the Effect depends on.
 >   

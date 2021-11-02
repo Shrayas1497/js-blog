@@ -25,7 +25,7 @@ description: "important js concepts"
 > **Functional Component :->**
 >Use functional Component if you are writing a presentational component which does’nt have its own state or needs to access Lifestyle hook. You cannot use UseState() in your component because Functional component are plain J.S. functions.
 
-#### Class Components:->**
+>>**Class Components:->**
 Use Class Components if you need state or need access Lifecycle hooks are coming from React. Component which you extend from in Class Component.
 
 
